@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Proyecto Administracion de Servicios en Red</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}" type="text/css"/>
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	</head>
+	<body>
+    	<nav>
+    		<ul>
+    			<li><a href="/menu"><img src="{{url_for('static',filename='home.png')}}"></a></li>
+    			<li><a href="/Topo">Topología</a></li>
+    			<li><a href="/Disp">Dispositivos y usuarios</a></li>
+		        <li><a href="/Enr">Enrutamiento</a></li>
+		        <li><a href="/User">Usuarios de página</a></li>
+		        <li><a href="/Bita">Bitácora</a></li>
+		        <li><a href="/MonData">Monitoreo</a></li>
+		        <li><a href="/Alerts">Alertas</a></li>
+		        <li><a href="/">Salir</a></li>
+		    </ul>
+		</nav>
+    	<br>
+		<br>
+		<br>
+    	<div class="contenedor">
+			<div class="contenido" id="ipn" align="center"><img src="{{url_for('static',filename='IPN.png')}}"></div>
+			<div>
+				<h1 align="center"> Instituto Politecnico Nacional </h1>
+				<h2 align="center"> Escuela Superior de Computo </h1>
+			</div>
+			<div class="contenido" id="escom" align="center"><img src="{{url_for('static',filename='ESCOM.png')}}"></div>
+		</div>
+		<div id="portada">
+			<h2 align="center"> Proyecto para la administacion de redes </h2>
+			<h2 align="center"> Profesor: </h2>
+			<h3 align="center"> Martinez Rosales Ricardo </h3>
+			<h2 align="center"> Presentan: </h2>
+			<h3 align="center"> Estrada González David &nbsp; Boleta: 2015020367 </h3>
+			<h3 align="center"> Vite Cruz Rodrigo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Boleta: 2018630531 </h3>
+			<h2 align="center"> 4CM1 </h2>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+	</body>
+</html>
